@@ -1,6 +1,6 @@
-# Mantis Faucet Web
+# Atago Faucet Web
 
-Web interface for Mantis Faucet
+Web interface for Atago Faucet
 
 ## Prerequisites
 
