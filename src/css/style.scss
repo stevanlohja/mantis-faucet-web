@@ -10,6 +10,8 @@ $accentColor: #2094f3;
 $textColor: #e9ebfc;
 $backgroundColor: #121212;
 
+$borderRadius: 12px;
+
 body {
   margin: 0px;
   height: 100%;
@@ -70,6 +72,7 @@ input {
   font-weight: 600;
   margin-bottom: 17px;
   margin-top: 2px;
+  border-radius: $borderRadius;
 
   &:focus {
     border: 3px solid #2094f3;
@@ -91,6 +94,7 @@ input[type="reset"] {
   padding-left: 14px;
   padding-right: 14px;
   font-size: 1em;
+  border-radius: $borderRadius;
 
   &:disabled {
     background-color: #4e4e4e;
